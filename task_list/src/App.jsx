@@ -1,9 +1,15 @@
 import React from "react";
 import './app.css'
+import TaskForm from './components/TaskForm'
+import TaskList from './components/TaskList'
+
 function App() {
   return (
-    <div className="container">
-      <h1 className="title">To Do List</h1>
+    <div>
+      <h1>To Do List</h1>
+      <TaskForm></TaskForm>
+      <TaskList></TaskList>
+
     </div>
   );
 }
